@@ -4,7 +4,8 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _738b8b47 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
+const _750d0a2b = () => interopDefault(import('..\\pages\\kakao-callback.vue' /* webpackChunkName: "pages/kakao-callback" */))
+const _0e0b7ce6 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
 
@@ -18,8 +19,12 @@ export const routerOptions = {
   scrollBehavior,
 
   routes: [{
+    path: "/kakao-callback",
+    component: _750d0a2b,
+    name: "kakao-callback"
+  }, {
     path: "/",
-    component: _738b8b47,
+    component: _0e0b7ce6,
     name: "index"
   }],
 

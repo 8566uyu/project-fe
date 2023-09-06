@@ -1,9 +1,16 @@
 [
   {
+    "name": "kakao-callback",
+    "path": "/kakao-callback",
+    "component": "C:\\\\Users\\\\PC\\\\Documents\\\\GitHub\\\\project-fe\\\\pages\\\\kakao-callback.vue",
+    "chunkName": "pages/kakao-callback",
+    "_name": "_750d0a2b"
+  },
+  {
     "name": "index",
     "path": "/",
-    "component": "C:\\\\Users\\\\PC\\\\project-fe\\\\pages\\\\index.vue",
+    "component": "C:\\\\Users\\\\PC\\\\Documents\\\\GitHub\\\\project-fe\\\\pages\\\\index.vue",
     "chunkName": "pages/index",
-    "_name": "_738b8b47"
+    "_name": "_0e0b7ce6"
   }
 ]
